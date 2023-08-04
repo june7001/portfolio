@@ -4,11 +4,11 @@ import { Flower } from "./Flower";
 
 export function Navbar() {
   return (
-    <nav className="relative flex justify-between  bg-indigo-200 px-12 pb-4 pt-6">
-      <Link href="/">
-        <Flower className=" hidden animate-rotate sm:block" />
+    <nav className="relative flex flex-row items-center justify-between  bg-indigo-200 px-1 py-4 sm:px-12">
+      <Link href="/" className="hidden sm:block">
+        <Flower className=" animate-rotate " />
       </Link>
-      <ul className="flex flex-row flex-wrap justify-center space-x-2">
+      <ul className="flex grow flex-row flex-wrap justify-center space-x-2 sm:grow-0">
         <NavLink href="/" name="Home" />
         <NavLink href="/about" name="About" />
         <NavLink href="/projects" name="Projects" />
