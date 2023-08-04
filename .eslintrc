@@ -1,6 +1,12 @@
 {
-  "extends": ["prettier", "plugin:tailwindcss/recommended"],
+  "extends": [
+    "next",
+    "plugin:tailwindcss/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": ["prettier"],
   "rules": {
-    "tailwindcss/classnames-order": "error"
+    "tailwindcss/classnames-order": "error",
+    "prettier/prettier": "error"
   }
 }
