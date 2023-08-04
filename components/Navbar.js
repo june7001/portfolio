@@ -4,9 +4,9 @@ import { Flower } from "./Flower";
 
 export function Navbar() {
   return (
-    <nav className="flex justify-between bg-indigo-200 px-12 pt-6 pb-4">
+    <nav className="flex relative justify-between bg-indigo-200 px-12 pt-6 pb-4">
       <Link href="/">
-        <Flower />
+        <Flower className=" animate-rotate " />
       </Link>
       <ul className="flex flex-wrap flex-row space-x-2 justify-center">
         <NavLink href="/" name="Home" />
