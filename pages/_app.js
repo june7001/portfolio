@@ -13,7 +13,9 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export default function App({ Component, pageProps }) {
   return (
-    <div className={`bg-indigo-200  ${inter.variable} ${averia.variable}`}>
+    <div
+      className={`flex min-h-screen flex-col bg-indigo-200 ${inter.variable} ${averia.variable}`}
+    >
       <div className="mx-4 flex grow flex-col items-center sm:mx-8 md:mx-12">
         <div className="w-full max-w-6xl xl:w-3/4">
           <Navbar />
