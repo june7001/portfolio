@@ -1,6 +1,6 @@
 export function Footer() {
   return (
-    <div className="w-full bg-black h-48 text-white relative">
+    <div className="relative h-48 w-full bg-black text-white">
       <div className="wave">
         <svg
           xmlns="http://www.w3.org/2000/svg"

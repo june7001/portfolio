@@ -1,4 +1,4 @@
-export default function () {
+export default function Projects() {
   return (
     <div>
       <h1 className="font-heading">Projects</h1>

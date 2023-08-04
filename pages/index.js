@@ -6,9 +6,9 @@ import { ArrowLink } from "@/components/ArrowLink";
 export default function Home() {
   return (
     <header>
-      <h1 className="text-7xl  font-heading">Hi, I'm June </h1>
+      <h1 className="font-heading  text-7xl">Hi, I&apos;m June </h1>
       <h2 className="font-main text-xl font-medium">
-        I'm a fullstack student at{" "}
+        I&apos;m a fullstack student at{" "}
         <ArrowLink
           href="https://nackademin.se/utbildningar/webbutvecklare-fullstack-open-source/"
           newTab

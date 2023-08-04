@@ -7,7 +7,7 @@ export function ArrowLink({ href, newTab = false, children }) {
       passHref
       target={newTab ? "_blank" : "_self"}
       rel={newTab ? "noopener noreferrer" : ""}
-      className="font-semibold hover-underline "
+      className="hover-underline font-semibold "
     >
       {children}
       <svg
