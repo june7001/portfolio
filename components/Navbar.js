@@ -4,7 +4,7 @@ import { Flower } from "./Flower";
 
 export function Navbar() {
   return (
-    <nav className="relative flex flex-row items-center justify-between  bg-indigo-200  py-4 sm:px-12">
+    <nav className="relative flex flex-row items-center justify-between  bg-indigo-200  py-6 sm:px-12">
       <Link href="/" className="hidden sm:block">
         <Flower className=" animate-rotate " />
       </Link>
