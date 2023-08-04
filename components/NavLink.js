@@ -11,7 +11,7 @@ export function NavLink({ href, name }) {
       <Link
         href={href}
         key={href}
-        className="relative rounded-full px-3 py-1.5 text-lg font-medium text-white outline-sky-400 transition focus-visible:outline-2"
+        className="relative rounded-full px-3 py-2 font-medium text-white outline-sky-400 transition focus-visible:outline-2"
         style={{
           WebkitTapHighlightColor: "transparent",
         }}
