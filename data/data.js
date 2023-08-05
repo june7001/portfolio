@@ -1,0 +1,42 @@
+export const projects = [
+  {
+    title: "Portfolio",
+    githubLink: "https://github.com/project-1",
+    img: "/images/ghost.png",
+    techStack: ["Next.js", "TailwindCSS", "Framer Motion"],
+    description: "I'm working on it :)",
+    link: "link-to-project-1-page.com",
+  },
+  {
+    title: "Juni Blommor",
+    githubLink: "https://github.com/project-2",
+    img: "/images/ghost.png",
+    techStack: ["Shopify", "Next.js", "Framer Motion"],
+    description: "I'm working on it :)",
+    link: "link-to-project-2-page.com",
+  },
+  {
+    title: "Project 3",
+    githubLink: "https://github.com/project-3",
+    img: "/images/ghost.png",
+    techStack: ["Vue.js", "Laravel", "PostgreSQL"],
+    description: "I'm working on it :)",
+    link: "link-to-project-3-page.com",
+  },
+  {
+    title: "Project 4",
+    githubLink: "https://github.com/project-4",
+    img: "/images/ghost.png",
+    techStack: ["Python", "Flask", "SQLite"],
+    description: "I'm working on it :)",
+    link: "link-to-project-4-page.com",
+  },
+  {
+    title: "Project 5",
+    githubLink: "https://github.com/project-5",
+    img: "/images/ghost.png",
+    techStack: ["Java", "Spring Boot", "MySQL"],
+    description: "I'm working on it :)",
+    link: "link-to-project-5-page.com",
+  },
+];
