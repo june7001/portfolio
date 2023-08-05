@@ -5,7 +5,7 @@ export const projects = [
     img: "/images/ghost.png",
     techStack: ["Next.js", "TailwindCSS", "Framer Motion"],
     description: "I'm working on it :)",
-    link: "link-to-project-1-page.com",
+    link: "https://june.contact",
   },
   {
     title: "Juni Blommor",
@@ -21,7 +21,7 @@ export const projects = [
     img: "/images/ghost.png",
     techStack: ["Vue.js", "Laravel", "PostgreSQL"],
     description: "I'm working on it :)",
-    link: "link-to-project-3-page.com",
+    link: "",
   },
   {
     title: "Project 4",
