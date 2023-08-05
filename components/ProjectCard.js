@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function ProjectCard({ project }) {
   return (
-    <div className="m-4 bg-white p-4">
+    <div className="m-4 rounded-lg bg-white p-4 shadow-lg">
       <div>
         <Image
           src={project.img}
