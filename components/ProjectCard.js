@@ -3,7 +3,7 @@ import { ArrowLink } from "./ArrowLink";
 
 export function ProjectCard({ project }) {
   return (
-    <div className="m-4 flex flex-col  rounded-lg bg-white p-4 shadow-lg">
+    <div className=" flex flex-col  rounded-lg bg-white p-4 shadow-lg">
       <Image
         src={project.img}
         alt={project.title}
