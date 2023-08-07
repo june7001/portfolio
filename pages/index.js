@@ -31,7 +31,7 @@ export default function Home() {
       <section className="pt-8">
         <h2 className="font-heading text-2xl">Featured Projects</h2>
 
-        <div className="mt-6 grid space-x-6 md:grid-cols-2">
+        <div className="mt-6 grid gap-8 md:grid-cols-2">
           {featuredProjects.map((project, index) => (
             <ProjectCard key={index} project={project} />
           ))}
