@@ -34,7 +34,7 @@ export default function About() {
             className="rounded-xl"
           />
           <p className="text-sm italic">
-            Here&apos;s a photo of me sitting on my favoriate spot in the forest
+            Here&apos;s a photo of me sitting on my favourite spot in the forest
             nearby.
           </p>
         </div>
