@@ -5,8 +5,8 @@ const facts = {
   Name: "June",
   Location: "Stockholm, Sweden",
   Languages: "Chinese, English, Swedish",
-  "I&apos;m learning": "React, Next.js, CSS, Framer Motion, Figma, Shopify",
-  "I&apos;m interested in": "E-commerce, Design, Accessibility",
+  "I'm learning": "React, Next.js, CSS, Framer Motion, Figma, Shopify",
+  "I'm interested in": "E-commerce, Design, Accessibility",
   "I like": "Nature, Music, Dancing, Learning new things",
 };
 
