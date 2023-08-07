@@ -15,15 +15,15 @@ export default function About() {
     <div>
       <div className=" flex justify-between ">
         <div>
-          <h1 className="mb-8 font-heading text-3xl">Facts</h1>
-          {Object.entries(facts).map(([key, value]) => (
-            <p className="font-main text-lg font-medium leading-6" key={key}>
-              <span className="font-bold">{key}: </span>
-              {value}
-              <br />
-              <br />
-            </p>
-          ))}
+          <h1 className="mb-8 font-heading text-4xl sm:text-6xl">Facts</h1>
+          <ul className="mr-2 flex flex-col gap-3 sm:gap-8">
+            {Object.entries(facts).map(([key, value]) => (
+              <p className="font-main   " key={key}>
+                <span className="font-bold sm:text-lg">{key}: </span>
+                {value}
+              </p>
+            ))}
+          </ul>
         </div>
         <div className="w-[250px] ">
           <Image
@@ -39,8 +39,8 @@ export default function About() {
           </p>
         </div>
       </div>
-      <h1 className="mt-8 font-heading text-3xl">About Me</h1>
-      <p className="mt-8 text-lg font-medium">
+      <h1 className="mt-8 font-heading text-4xl sm:text-6xl">About Me</h1>
+      <p className="mt-8  sm:text-lg">
         Growing up sitting in front of a computer, I&apos;ve always had a strong
         interest in the web. I remember in high school, when I couldn&apos;t
         fall asleep but wasn&apos;t allowed to do anything else, I would
