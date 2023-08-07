@@ -1,6 +1,7 @@
 export const projects = [
   {
     title: "Portfolio",
+    featured: true,
     githubLink: "https://github.com/june7001/portfolio",
     img: "/images/ghost.png",
     techStack: ["Next.js", "TailwindCSS", "Framer Motion"],
@@ -9,6 +10,7 @@ export const projects = [
   },
   {
     title: "Juni Blommor",
+    featured: false,
     githubLink: "https://github.com/project-2",
     img: "/images/ghost.png",
     techStack: ["Shopify", "Next.js", "Framer Motion"],
@@ -17,6 +19,7 @@ export const projects = [
   },
   {
     title: "List",
+    featured: true,
     githubLink: "https://github.com/june7001/list",
     img: "/images/ghost.png",
     techStack: ["Express", "MySQL", "Next.js", "Tailwind CSS"],
