@@ -11,10 +11,12 @@ export function ProjectCard({ project }) {
           layout="responsive"
           width={300}
           height={300}
-          className="w-1/3"
+          className="rounded-md"
         />
-        <h3 className="mb-2 font-heading text-xl">{project.title}</h3>
-        <p className="font-medium">{project.description}</p>
+        <h3 className="mb-2 ml-0.5 pt-3 font-heading text-xl">
+          {project.title}
+        </h3>
+        <p className="ml-0.5 font-medium">{project.description}</p>
         <div className="mt-3 flex flex-wrap">
           {project.techStack.map((tech, index) => (
             <span
@@ -25,13 +27,15 @@ export function ProjectCard({ project }) {
             </span>
           ))}
         </div>
-        <div className="space-x-4">
+        <div className="ml-1 space-x-4 pt-2">
           <ArrowLink href={project.githubLink} newTab>
             Github
           </ArrowLink>
-          <ArrowLink href={project.link} newTab>
-            Preview
-          </ArrowLink>
+          {project.link && (
+            <ArrowLink href={project.link} newTab>
+              Visit
+            </ArrowLink>
+          )}
         </div>
       </div>
     </div>

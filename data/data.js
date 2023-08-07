@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: "Portfolio",
-    githubLink: "https://github.com/project-1",
+    githubLink: "https://github.com/june7001/portfolio",
     img: "/images/ghost.png",
     techStack: ["Next.js", "TailwindCSS", "Framer Motion"],
     description: "I'm working on it :)",
@@ -16,27 +16,10 @@ export const projects = [
     link: "link-to-project-2-page.com",
   },
   {
-    title: "Project 3",
-    githubLink: "https://github.com/project-3",
+    title: "List",
+    githubLink: "https://github.com/june7001/list",
     img: "/images/ghost.png",
-    techStack: ["Vue.js", "Laravel", "PostgreSQL"],
-    description: "I'm working on it :)",
-    link: "",
-  },
-  {
-    title: "Project 4",
-    githubLink: "https://github.com/project-4",
-    img: "/images/ghost.png",
-    techStack: ["Python", "Flask", "SQLite"],
-    description: "I'm working on it :)",
-    link: "link-to-project-4-page.com",
-  },
-  {
-    title: "Project 5",
-    githubLink: "https://github.com/project-5",
-    img: "/images/ghost.png",
-    techStack: ["Java", "Spring Boot", "MySQL"],
-    description: "I'm working on it :)",
-    link: "link-to-project-5-page.com",
+    techStack: ["Express", "MySQL", "Next.js", "Tailwind CSS"],
+    description: "Fullstack list sharing app",
   },
 ];
