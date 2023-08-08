@@ -15,8 +15,8 @@ export function Footer() {
           ></path>
         </svg>
       </div>
-      <div className="flex flex-col items-center p-4 sm:flex-row-reverse">
-        <div className=" flex flex-row items-center space-x-4 p-4 ">
+      <div className="small:text-base  mx-4 flex w-full flex-col items-center text-sm sm:mx-8 sm:flex-row-reverse sm:justify-between md:mx-12">
+        <div className=" flex flex-row items-center space-x-5 p-4 ">
           <Link
             href="https://github.com/june7001"
             rel="noopener noreferrer"
@@ -85,7 +85,9 @@ export function Footer() {
             </svg>
           </Link>
         </div>
-        <p className=" text-indigo-200">Designed and developed by June.</p>
+        <p className=" mb-4 text-indigo-200 sm:mb-0">
+          Designed and developed by June.
+        </p>
       </div>
     </div>
   );
