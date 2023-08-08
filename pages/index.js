@@ -4,11 +4,22 @@ import { headers } from "next/dist/client/components/headers";
 import { ArrowLink } from "@/components/ArrowLink";
 import { projects } from "@/data/data";
 import { ProjectCard } from "@/components/ProjectCard";
+import { motion, useScroll, useSpring } from "framer-motion";
 
 export default function Home() {
+  const { scrollYProgress } = useScroll();
+  const scaleX = useSpring(scrollYProgress, {
+    stiffness: 100,
+    damping: 30,
+    restDelta: 0.001,
+  });
   const featuredProjects = projects.filter((projects) => projects.featured);
   return (
     <div>
+      <motion.div
+        className="fixed inset-x-0 top-0 h-2 origin-left bg-black"
+        style={{ scaleX }}
+      ></motion.div>
       <header>
         <h1 className="font-heading  text-7xl">Hi, I&apos;m June </h1>
         <div className=" pt-12 font-main text-xl font-medium ">
