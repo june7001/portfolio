@@ -15,8 +15,8 @@ export function Footer() {
           ></path>
         </svg>
       </div>
-      <div className="small:text-base  mx-4 flex w-full flex-col items-center text-sm sm:mx-8 sm:flex-row-reverse sm:justify-between md:mx-12 xl:w-3/4">
-        <div className=" flex flex-row items-center space-x-5 p-4 ">
+      <div className="small:text-base flex w-full max-w-6xl flex-col items-center text-sm sm:mx-8 sm:flex-row-reverse sm:justify-between md:mx-12 xl:w-3/4">
+        <div className=" flex flex-row items-center space-x-6 py-5 ">
           <Link
             href="https://github.com/june7001"
             rel="noopener noreferrer"
