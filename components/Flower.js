@@ -2,8 +2,8 @@ export function Flower(props) {
   return (
     <svg
       className="animate-rotate"
-      width="80"
-      height="80"
+      width="60"
+      height="60"
       viewBox="0 0 512 512"
       fill="black"
       xmlns="http://www.w3.org/2000/svg"
