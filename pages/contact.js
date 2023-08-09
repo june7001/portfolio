@@ -98,6 +98,7 @@ export default function Contact() {
             type="text"
             name="name"
             value={form.name}
+            required
             onChange={handleChange}
             className="mt-2 rounded-lg bg-slate-100 p-2 shadow-lg focus:outline-none"
           />
@@ -108,6 +109,7 @@ export default function Contact() {
             type="email"
             name="email"
             value={form.email}
+            required
             onChange={handleChange}
             className="mt-2 rounded-lg bg-slate-100 p-2 shadow-lg focus:outline-none"
           />
@@ -117,6 +119,7 @@ export default function Contact() {
           <textarea
             name="message"
             value={form.message}
+            required
             onChange={handleChange}
             className="mt-2 h-48 resize-none rounded-lg bg-slate-100 p-2 shadow-lg focus:outline-none"
           ></textarea>
