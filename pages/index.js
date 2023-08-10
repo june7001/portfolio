@@ -22,7 +22,7 @@ export default function Home() {
       ></motion.div>
       <header>
         <h1 className="font-heading  text-7xl">Hi, I&apos;m June </h1>
-        <div className=" pt-12 font-main text-xl font-medium ">
+        <div className="ml-[4px] pt-12 font-main text-xl font-medium ">
           <p>
             I&apos;m a fullstack student at{" "}
             <ArrowLink
