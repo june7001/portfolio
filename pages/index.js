@@ -49,15 +49,15 @@ export default function Home() {
       <section className="pt-8">
         <h2 className="font-heading text-4xl">Featured Projects</h2>
 
-        <div className="mt-6 grid gap-8 md:grid-cols-2">
+        <div className="mt-10 grid gap-8 md:grid-cols-2">
           {featuredProjects.map((project, index) => (
             <ProjectCard key={index} project={project} />
           ))}
         </div>
       </section>
-      <section className="py-12">
+      <section className="mt-10 py-12">
         <h2 className="font-heading text-4xl">In school I learned:</h2>
-        <div className="mt-6 flex">
+        <div className="flex">
           <ul className="mr-4 flex-1 list-disc  p-6  text-xl leading-10 ">
             <li>HTML/CSS</li>
             <li>JavaScript</li>
