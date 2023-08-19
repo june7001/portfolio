@@ -1,5 +1,6 @@
 import { ArrowLink } from "@/components/ArrowLink";
 import Image from "next/image";
+import profile from "../public/images/photo.jpg";
 
 const facts = {
   Name: "June",
@@ -27,11 +28,12 @@ export default function About() {
         </div>
         <div className="w-[259px]">
           <Image
-            src="/photo.jpg"
-            height={600}
-            width={500}
+            src={profile}
+            height={2684}
+            width={1738}
             alt="Photo of June"
             className="rounded-xl"
+            placeholder="blur"
           />
         </div>
       </div>
