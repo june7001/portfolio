@@ -6,6 +6,7 @@ export function ProjectCard({ project }) {
     <div className=" flex flex-col  rounded-lg bg-white p-4 shadow-lg">
       <Image
         src={project.img}
+        placeholder="blur"
         alt={project.title}
         layout="responsive"
         width={300}

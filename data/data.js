@@ -1,9 +1,11 @@
+import portfolio from "../public/images/portfolio.png";
+import blomsterhandel from "../public/images/blomsterhandel.png";
 export const projects = [
   {
     title: "Portfolio",
     featured: true,
     githubLink: "https://github.com/june7001/portfolio",
-    img: "/images/portfolio.png",
+    img: portfolio,
     techStack: ["Next.js", "TailwindCSS", "Framer Motion"],
     description: "Improvements ongoing",
     link: "https://june.contact",
@@ -12,7 +14,7 @@ export const projects = [
     title: "Blomsterhandel",
     featured: true,
     githubLink: "https://github.com/june7001/commerce",
-    img: "/images/blomsterhandel.png",
+    img: blomsterhandel,
     techStack: ["Next.js(app router)", "Shopify"],
     description: "A headless shopify flower shop",
     link: "https://commerce-three-rose-76.vercel.app/",
