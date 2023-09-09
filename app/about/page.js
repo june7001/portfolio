@@ -1,6 +1,6 @@
-import { ArrowLink } from "@/components/ArrowLink";
+import { ArrowLink } from "components/ArrowLink";
 import Image from "next/image";
-import profile from "../public/images/photo.jpg";
+import profile from "public/images/photo.jpg";
 
 const facts = {
   Name: "June",

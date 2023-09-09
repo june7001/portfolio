@@ -1,4 +1,5 @@
-import { useState, useRef, Fragment } from "react";
+"use client";
+import { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { Dialog } from "@headlessui/react";
 
@@ -32,7 +33,7 @@ export default function Contact() {
         "template_r6samo3",
         formRef.current,
         // eslint-disable-next-line
-        "omj_zzg_tFAEE04k9"
+        "omj_zzg_tFAEE04k9",
       );
       setSuccessMsg("I'll get back to you soon :)");
       setForm({
