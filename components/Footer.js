@@ -46,7 +46,7 @@ export function Footer() {
               </svg>
             </Link>
             <Link
-              href="https://www.linkedin.com/in/june-z-042a7a228"
+              href="https://www.linkedin.com/in/june-contact"
               rel="noopener noreferrer"
               target="blank"
             >
