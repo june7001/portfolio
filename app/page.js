@@ -1,6 +1,4 @@
 "use client";
-import Image from "next/image";
-import { headers } from "next/dist/client/components/headers";
 import { ArrowLink } from "@/components/ArrowLink";
 import { projects } from "@/data/data";
 import { ProjectCard } from "@/components/ProjectCard";
