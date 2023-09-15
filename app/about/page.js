@@ -5,7 +5,7 @@ import profile from "public/images/photo.jpg";
 const facts = {
   Name: "June",
   Location: "Stockholm, Sweden",
-  Languages: "Chinese, English, Swedish",
+  Languages: "Chinese, English, Swedish, some Japanese",
   "I'm learning": "React, Next.js, CSS, Framer Motion, Figma, Shopify",
   "I'm interested in": "E-commerce, Design, Accessibility",
   "I like": "Nature, Music, Dancing, Learning new things",
@@ -68,14 +68,8 @@ export default function About() {
           Motion and I&apos;m looking forward to getting really good at it.
           <br />
           <br />
-          Right now I&apos;m looking for a frontend internship opportunity in
-          Stockholm{" "}
-          <span className="font-bold italic">(2023-10-30 to 2024-04-11)</span>.
-          I&apos;m particularly interested in working on ecommerce websites but
-          I&apos;m open to any opportunity as long as I could learn something
-          new and contribute to delivering a good user experience. Please{" "}
-          <ArrowLink href="/contact">contact me</ArrowLink> if you&apos;ve got
-          anything! :)
+          Please <ArrowLink href="/contact">contact me</ArrowLink> if you have
+          any project I could help with or any excting opportunites! :)
           <br /> <br />
         </p>
       </article>
