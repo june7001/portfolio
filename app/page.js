@@ -21,21 +21,11 @@ export default function Home() {
       <header>
         <h1 className="font-heading  text-7xl">Hi, I&apos;m June </h1>
         <div className="ml-[4px] pt-12 font-main text-xl font-medium ">
-          <p>
-            I&apos;m a fullstack student at{" "}
-            <ArrowLink
-              href="https://nackademin.se/utbildningar/webbutvecklare-fullstack-open-source/"
-              newTab
-            >
-              Nackademin
-            </ArrowLink>
-            currently looking for a frontend internship in Stockholm from
-            2023-10-30 to 2024-04-11.{" "}
-          </p>
+          <p>I&apos;m a web developer based in Stockholm, Sweden.</p>
           <p className="mt-6">
             {" "}
-            Please <ArrowLink href="/contact">contact me</ArrowLink> if
-            you&apos;ve got anything!
+            Please <ArrowLink href="/contact">contact me</ArrowLink> if you have
+            any project I could help with or any excting opportunites! :)
           </p>
           <span className="block py-20 ">
             <ArrowLink className="font-extrabold" href="/about">
@@ -71,6 +61,16 @@ export default function Home() {
             <li>TypeScript</li>
           </ul>
         </div>
+        <p className="ml-[4px] py-3 font-main text-xl font-medium ">
+          I studied at{" "}
+          <ArrowLink
+            href="https://nackademin.se/utbildningar/webbutvecklare-fullstack-open-source/"
+            newTab
+          >
+            Nackademin
+          </ArrowLink>
+          in Stockholm.
+        </p>
       </section>
     </div>
   );
