@@ -27,6 +27,10 @@ export default function Home() {
             Please <ArrowLink href="/contact">contact me</ArrowLink> if you have
             any project I could help with or any excting opportunites! :)
           </p>
+          <p className="mt-6">
+            I'm eligible to work in Sweden and have a personal Swedish ID
+            number.
+          </p>
           <span className="block py-20 ">
             <ArrowLink className="font-extrabold" href="/about">
               Learn more about me
