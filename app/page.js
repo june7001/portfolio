@@ -28,7 +28,7 @@ export default function Home() {
             any project I could help with or any excting opportunites! :)
           </p>
           <p className="mt-6">
-            I'm eligible to work in Sweden and have a personal Swedish ID
+            I&apos;m eligible to work in Sweden and have a personal Swedish ID
             number.
           </p>
           <span className="block py-20 ">
