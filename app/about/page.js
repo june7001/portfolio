@@ -59,17 +59,36 @@ export default function About() {
           It&apos;s been an interesting journey: Speaking Swedish with my
           classmates to complete assignments, attending tech events and becoming
           friends with like-minded people, and of course, spending countless
-          hours in front of the screen trying to make something work. The
-          feeling when something finally works is amazing.
+          hours in front of the screen trying to make something work. The moment
+          I finally see the complete website I built on my own go live is
+          incredible.
           <br /> <br />
-          Frontend is only a small part of my fullstack education. It was
-          interesting to develop a fullstack app but I found myself more
-          passionate about the frontend. Recently I started to explore Framer
-          Motion and I&apos;m looking forward to getting really good at it.
+          While pursuing my fullstack education, I discovered a strong passion
+          for design and frontend. I designed and developed my{" "}
+          <ArrowLink href="https://github.com/june7001/portfolio" newTab>
+            portfolio
+          </ArrowLink>{" "}
+          from scratch, and I&apos;m committed to continuously integrating new
+          knowledge I learn. In my project{" "}
+          <ArrowLink href="https://commerce-three-rose-76.vercel.app/" newTab>
+            blomsterhandel
+          </ArrowLink>
+          , I redesigned Vercel&apos;s e-commerce template (Next.js, Shopify). I
+          changed the overall visuals, connected it to my Shopify store, and
+          localized the site for Swedish users. I also implemented a dynamic
+          navbar and improved the UX.
           <br />
           <br />
-          Please <ArrowLink href="/contact">contact me</ArrowLink> if you have
-          any project I could help with or any excting opportunites! :)
+          In my current TypeScript course, I&apos;m teaming up with four
+          classmates to build a full-stack e-commerce admin portal using
+          Next.js. Designed to mimic a real-world setup, the project requires us
+          to collaborate with test students and a product owner to meet industry
+          standards. This provides me the opportunity to deepen my understanding
+          of Next.js&apos;s new app router and to sharpen my skills in agile
+          development.
+          <br />
+          <br /> Please <ArrowLink href="/contact">contact me</ArrowLink> if you
+          have any project I could help with or any excting opportunites! :)
           <br /> <br />
         </p>
       </article>
