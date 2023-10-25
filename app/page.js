@@ -66,14 +66,14 @@ export default function Home() {
           </ul>
         </div>
         <p className="ml-[4px] py-3 font-main text-xl font-medium ">
-          I studied at{" "}
+          I studied{" "}
           <ArrowLink
             href="https://nackademin.se/utbildningar/webbutvecklare-fullstack-open-source/"
             newTab
           >
-            Nackademin
+            Fullstack Web Developement
           </ArrowLink>
-          in Stockholm.
+          at Nackademin in Stockholm.
         </p>
       </section>
     </div>
