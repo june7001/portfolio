@@ -79,6 +79,19 @@ export default function About() {
           navbar and improved the UX.
           <br />
           <br />
+          To cultivate my interest in web design aesthetics, I frequently seek
+          inspiration from platforms like The Headless Club and Awwwards, as
+          well as a variety of websites and related Instagram accounts. With an
+          eye for details, I often find myself analyzing user experience and
+          visual design as I browse the internet. Whenever I get some free time,
+          I plan to implement a blog section to this portfolio using Sanity as
+          the CMS, where I&apos;ll share my observations and insights. Eager to
+          quickly prototype my ideas and demonstrate potential improvements,
+          I&apos;ve also picked up the basics of Figma and soon I&apos;ll take a
+          specialized course focused on ecommerce design to learn more advanced
+          techniques.
+          <br />
+          <br />
           In my current TypeScript course, I&apos;m teaming up with four
           classmates to build a full-stack e-commerce admin portal using
           Next.js. Designed to mimic a real-world setup, the project requires us

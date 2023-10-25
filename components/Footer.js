@@ -85,6 +85,38 @@ export function Footer() {
                 />
               </svg>
             </Link>
+
+            <Link
+              href="https://www.instagram.com/june.contact/"
+              rel="noopener noreferrer"
+              target="blank"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="40"
+                height="40"
+                viewBox="0 0 60 60"
+                fill="none"
+              >
+                <g clip-path="url(#clip0_5_34)">
+                  <path
+                    d="M30 60C46.5685 60 60 46.5685 60 30C60 13.4315 46.5685 0 30 0C13.4315 0 0 13.4315 0 30C0 46.5685 13.4315 60 30 60Z"
+                    fill="white"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M35.3379 43.3559C32.0789 43.3559 27.4432 43.1916 24.3516 43.1916C18.5695 43.1916 17 39.7716 17 35.4232C17 31.0748 17.0853 26.2653 17.0853 24.6168C17.0853 19.7316 19.2484 17.0189 24.6105 17.0189C26.5937 17.0189 34.0526 17 36.5916 17C41.4705 17 43.8105 19.0147 43.8105 24.9137C43.8105 26.3695 43.7032 29.0948 43.7032 36.6516C43.7032 41.4043 41.4579 43.3559 35.3379 43.3559ZM30.4432 23.2874C21.3421 23.2874 20.9032 37.138 30.5979 37.138C39.4526 37.138 39.5095 23.2874 30.4432 23.2874ZM38.6695 20.5432C36.0389 20.5432 35.9126 24.5253 38.7168 24.5253C41.2747 24.5189 41.2937 20.5432 38.6695 20.5432Z"
+                    fill="black"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_5_19">
+                    <rect width="60" height="60" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </Link>
           </div>
           <p className=" mb-4 text-indigo-200 sm:mb-0">
             Designed and developed by June.
