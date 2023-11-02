@@ -92,16 +92,8 @@ export default function About() {
           techniques.
           <br />
           <br />
-          In my current TypeScript course, I&apos;m teaming up with four
-          classmates to build a full-stack e-commerce admin portal using
-          Next.js. Designed to mimic a real-world setup, the project requires us
-          to collaborate with test students and a product owner to meet industry
-          standards. This provides me the opportunity to deepen my understanding
-          of Next.js&apos;s new app router and to sharpen my skills in agile
-          development.
-          <br />
-          <br /> Please <ArrowLink href="/contact">contact me</ArrowLink> if you
-          have any project I could help with or any excting opportunites! :)
+          Please <ArrowLink href="/contact">contact me</ArrowLink> if you have
+          any project I could help with or any excting opportunites! :)
           <br /> <br />
         </p>
       </article>
